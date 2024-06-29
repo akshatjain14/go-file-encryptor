@@ -1,0 +1,1 @@
+C:\Users\Lenovo\Documents\GitHub\go-file-encryptor\data\destination\example.txt a39515b2b26472243f822b28e0e8c7dcb95041398f9b91ba3b6c9b36b6baa693

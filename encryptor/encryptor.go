@@ -22,7 +22,6 @@ func EncryptFile(sourcePath, destDir string) (string, error) {
 		return "", err
 	}
 
-	// Create IV
 	ciphertext := make([]byte, aes.BlockSize+len(content))
 	iv := ciphertext[:aes.BlockSize]
 	if _, err := io.ReadFull(rand.Reader, iv); err != nil {
